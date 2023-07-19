@@ -1,0 +1,94 @@
+:root {
+    --main-bg-color: #1f2937;
+    --clear-bg-color: #fff;
+    --quote-bg-color: #e5e7eb;
+    --light-blue-color: #3882f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+}
+
+.header {
+
+}
+
+.random-section {
+    background-color: var(--clear-bg-color);
+}
+
+.quotes-cont {
+    background-color: var(--quote-bg-color);
+}
+
+.call-action-cont {
+    background-color: var(--clear-bg-color);
+}
+
+.footer {
+    margin-top: auto;
+}
+
+
+
+
+/* Font styles and colors */
+
+/* clear text */
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.header-link a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+#main-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+#main-par {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+#footer-p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#modal-h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
+#modal-p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* dark text */
+.card p {
+
+}
+#random-title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+#grand-quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+#quote-source{
+    color: #1f2937;
+}
